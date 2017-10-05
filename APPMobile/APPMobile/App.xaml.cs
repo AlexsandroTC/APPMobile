@@ -11,9 +11,8 @@ namespace APPMobile
     {
         public App()
         {
-            InitializeComponent();
-
-            MainPage = new APPMobile.MainPage();
+            MainPage = new NavigationPage(new CadastroViewPage());
+            //MainPage = new APPMobile.MainPage();
         }
 
         protected override void OnStart()

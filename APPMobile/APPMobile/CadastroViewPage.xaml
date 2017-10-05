@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APPMobile.CadastroViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblNome" Text="Nome" ></Label>
+            <Entry x:Name="entName" ></Entry>
+
+            <Label x:Name="lblEmail" Text="E-mail"></Label>
+            <Entry x:Name="entEmail"></Entry>
+
+            <Label x:Name="lblAnddres" Text="Endereco"></Label>
+            <Entry x:Name="entEndereco"></Entry>
+
+            <Label x:Name="lblPhone" Text="Telefone" ></Label>
+            <Entry x:Name="entTelefone"></Entry>
+
+            <Button x:Name="btnSalvar" Text="Salvar" Clicked="OnSalvar" IsVisible="True"></Button>
+            <Button x:Name="btnExcluir" Text="Excluir" Clicked="OnExcluir" IsVisible="False"></Button>
+            <Button x:Name="btnAtualizar" Text="Atualizar" Clicked="OnAtualizar" IsVisible="False"></Button>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
